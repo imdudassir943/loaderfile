@@ -1,0 +1,19 @@
+.loader
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-top: 10px solid #3a86ff;
+    border-bottom: 10px solid #8338ec;
+    border-right: 10px solid #ff006e;
+    border-left: 10px solid #ffbe0b;
+    animation: coloranimate 1s steps(5) 0s infinite normal;
+}
+@keyframes coloranimate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
